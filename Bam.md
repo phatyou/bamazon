@@ -1,5 +1,6 @@
-* Bamazon is a Node application which allows users to select from a list of items available, and, if there is sufficient quantity for that item, to purchase the item.
+**Bamazon**
 
+* Bamazon is a Node application which allows users to select from a list of items available, and, if there is sufficient quantity for that item, to purchase the item.
 
   * The basic application is fairly simple: Upon loading up the program, the Bamazon database (product table) is printed/consoled (via npm mySQL connection), and the user is prompted to select which item they would like to buy.
 
@@ -15,8 +16,8 @@
         * If user selects keep shopping, then the shop function in called.
         * If user selects quit, then the user is shown a leave-taking message and the connection in terminated.
 
-    * Create a sign up and login system that prompts users for a username and password upon loading up the app. **Do not worry about setting up a truly secure database if you choose to tackle this addon. Just worry about building working sign up and login features.**
-
+    * Create a sign up and login system that prompts users for a username and password upon loading up the app.
+    
     * Create a system which allows users to write a review of an item. 
     
     * Create an option on the main screen which allows administrators to modify the database as they see fit.
