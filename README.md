@@ -9,12 +9,12 @@
     * The quantity the user entered is compared against the mySQL Bamazon database (product table) for stock-quantity.
         * If the quantity the user entered is lower than the stock held in the database, then the purchase proceeds and the total price is consoled to the user.  
             * The database is updated at the time the purchase "goes through" (if the condition is met that there is enough stock of the product to buy).  The quantity is updated. 
-        * If the quanity is less than stock in database, then the user is informed of the failure and boots them back to the selection screen.
+    
         * If the quantity the user entered is higher than the stock_quantity, the user is told that the product is out of stock.
             * The database is not updated as no purchase took place. (Would be nice if a message was sent to the manager that product stock should be evaluated. File under "Nice-to-haves".)
 
     * The user is then prompted if they would like to quit/end their session, or if they would like to keep shopping.
-        * If user selects keep shopping, then the initial function is called that displays the products.
+        * If user selects keep shopping, then the initial start function is called that displays the products.
         * If user selects quit, then the user is shown a leave-taking message and the connection in terminated.
 
     Things that would/could be cool in later versions:
